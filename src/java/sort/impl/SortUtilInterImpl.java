@@ -10,8 +10,12 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Created by niuniu on 2017/3/17.
- */
+*@Author: NiuYaDong
+*@ClassName: SortUtilInterImpl
+*@Description: 
+*@update: 20:13 2017/4/11
+*@ModifyBy： 
+*/
 public class SortUtilInterImpl implements SortUtilInter{
 
     /**
@@ -77,6 +81,13 @@ public class SortUtilInterImpl implements SortUtilInter{
         }
     }
 
+    /**
+     *@Author: NiuYaDong
+     *@returnType: void
+     *@Param: [args]
+     *@Description: 测试排序方法
+     *@update: 20:13 2017/4/11
+     */
     public static void main(String[] args){
         int[] array = SortUtils.produceArray(10000);
         List<Integer> list = new ArrayList<Integer>();
